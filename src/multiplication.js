@@ -48,7 +48,4 @@ var multiply = function() {
   }, 0);
 };
 
-console.log(multiply(19, 16));
-console.log(19 * 16);
-console.log(multiply(123, 4321, 5678));
-console.log(123 * 4321 * 5678);
+module.exports = multiply;
